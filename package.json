@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Pedro_Fonseca10.github.io/curriculo",
+  "homepage": "https://pedro_fonseca10.github.io/curriculo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

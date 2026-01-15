@@ -419,7 +419,10 @@ export function HomePage() {
 
                   <div className="hp-projectTags">
                     {p.metrics.map((t) => (
-                      <span key={t} className="hp-badge hp-badge--soft">
+                      <span
+                        key={`${t.label}-${t.value}`}
+                        className="hp-badge hp-badge--soft"
+                      >
                         {t.value}
                       </span>
                     ))}
