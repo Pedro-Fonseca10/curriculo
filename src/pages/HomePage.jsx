@@ -254,7 +254,7 @@ export function HomePage() {
       <main className="hp-main">
         <section id="home" className="hp-hero">
           <div className="hp-container hp-hero__grid">
-            <div className="hp-hero__content" data-reveal>
+            <div className="hp-hero__content">
               <h1 className="hp-h1">
                 {heroHeadline.split(" — ").map((p, i) => (
                   <span
