@@ -232,7 +232,7 @@ export function HomePage() {
               GitHub
             </a>
             <a
-              className="hp-pill hp-pill--primary"
+              className="hp-pill"
               href={links.email}
               target="_blank"
               rel="noreferrer"
@@ -240,7 +240,7 @@ export function HomePage() {
               Email
             </a>
             <a
-              className="hp-pill hp-pill--primary"
+              className="hp-pill"
               href={links.wpp}
               target="_blank"
               rel="noreferrer"
