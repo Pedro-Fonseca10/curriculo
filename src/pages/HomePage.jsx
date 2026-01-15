@@ -288,12 +288,13 @@ export function HomePage() {
                 </div>
 
                 <div className="hp-card__body">
-                  <div className="hp-miniTitle">Foco atual Pessoal</div>
+                  <div className="hp-miniTitle">Foco atual </div>
                   <div className="hp-badges">
                     {[
-                      "UI fluida e moderna com React + Vite",
-                      "Deploy simples com uso de ferramentas como Vercel e Supabase - PostgreSQL",
-                      "Segurança RLS e métodos RCP",
+                      "Interfaces modernas (React + Vite)",
+                      "Back-end e dados (Node + Supabase/PostgreSQL)",
+                      "Segurança (RLS + RPC)",
+                      "Deploy e produto (Vercel, performance, UX)",
                     ].map((t) => (
                       <span key={t} className="hp-badge">
                         {t}

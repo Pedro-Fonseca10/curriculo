@@ -17,7 +17,7 @@ export const profileData = {
     highlights: [
       { label: "React + Vite", value: "Front-end" },
       { label: "Node / Supabase", value: "Back-end" },
-      { label: "RLS / RCP", value: "Segurança" },
+      { label: "RLS / RPC", value: "Segurança" },
       { label: "UI/UX", value: "Interface" },
     ],
   },
@@ -25,9 +25,6 @@ export const profileData = {
   links: {
     email: "mailto:phdffonseca@gmail.com",
     github: "https://github.com/Pedro-Fonseca10",
-    linkedin: "https://www.linkedin.com/in/seu-perfil",
-    portfolio: "https://seusite.com",
-    cvPdf: "/cv.pdf",
     wpp: "https://wa.me/5583996630540",
   },
 
@@ -48,7 +45,7 @@ export const profileData = {
   },
 
   skills: {
-    title: "Bibliotecas e FrameWorks",
+    title: "Stacks",
     groups: [
       {
         group: "Front-end",
@@ -56,11 +53,11 @@ export const profileData = {
       },
       {
         group: "Back-end",
-        items: ["Node.js", "APIs", "Supabase", "PostgreSQL", "RLS", "RCP"],
+        items: ["Node.js", "APIs", "Supabase", "PostgreSQL", "RLS", "RPC"],
       },
       {
         group: "Produto",
-        items: ["UI/UX", "CopyWriting", "Métricas"],
+        items: ["UI/UX", "Copywriting", "Métricas"],
       },
     ],
   },
