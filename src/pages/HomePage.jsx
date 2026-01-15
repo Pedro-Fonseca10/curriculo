@@ -278,7 +278,7 @@ export function HomePage() {
               </div>
             </div>
 
-            <div className="hp-hero__cardWrap" data-reveal>
+            <div className="hp-hero__cardWrap">
               <div className="hp-card hp-card--glass">
                 <div className="hp-card__top">
                   <div>
